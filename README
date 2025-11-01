@@ -1,0 +1,44 @@
+# Gmail AI Agent
+
+The **Gmail AI Agent** is a Python-based automation tool that connects to your Gmail inbox using the Gmail API and performs intelligent email tasks like:
+- Summarizing messages  
+- Classifying emails by category or urgency  
+- Counting unread or important emails  
+- Supporting natural language queries (e.g., “summarize today’s emails”)  
+
+---
+
+## 🚀 Features
+1. **Authentication:** Secure OAuth2-based login with Gmail API  
+2. **Summarization:** Uses NLP models to create concise summaries  
+3. **Classification:** Tags emails by importance or sender domain  
+4. **Analytics:** Counts unread, flagged, or specific-type messages  
+5. **Extensible:** Easy to integrate with OpenAI or LangChain for advanced responses  
+
+---
+
+## 🧰 Tech Stack
+- Python 3.10+
+- Google Gmail API
+- `google-auth`, `google-api-python-client`
+- OpenAI API or Hugging Face Transformers (optional)
+- Flask (for agent interface)
+
+---
+
+## ⚙️ Setup Instructions
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/nehanishal001/Gmail_AI_Agent.git
+   cd Gmail_AI_Agent
+
+
+## Install dependencies:
+         pip install -r requirements.txt
+
+
+## Add your Gmail API credentials file (credentials.json) inside the project root.
+
+
+## Run the app:
+         python main.py
